@@ -1,0 +1,66 @@
+.levelUpLogo {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: #f8f9fa;
+  border-radius: 35px;
+  position: relative;
+  top: 15px;
+  z-index: 10;
+}
+/* background-color: rgb(33, 37, 41); */
+
+.levelUpItem {
+  width: 50%;
+  width: 155px;
+  height: 155px;
+  overflow: visible;
+  stroke: rgb(243, 14, 14);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.levelUpLogo-collapse {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 35px;
+  display: flex;
+  place-content: center;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+
+.levelUpItem-collapse {
+  width: 55%;
+  width: 60px;
+  height: 60px;
+  overflow: visible;
+  stroke: rgb(243, 14, 14);
+  /* stroke: rgb(255, 251, 38); */
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+@media only screen and (max-width: 770px) {
+  .levelUpLogo {
+    display: none;
+  }
+  .nav-item {
+    border-bottom: 1px solid orangered;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .levelUpLogo-collapse {
+    display: none;
+  }
+}

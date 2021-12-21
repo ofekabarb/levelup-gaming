@@ -1,0 +1,48 @@
+.home-container {
+  background-image: url("../images/background.jpg");
+  min-height: 100vh;
+  /* background-size: cover; */
+  background-repeat: round;
+}
+
+.headline-main {
+  margin-bottom: 8rem;
+}
+.headline-anim {
+  animation: animate 5s linear infinite;
+}
+.headline-h1 {
+  -webkit-box-reflect: below -5px linear-gradient(transparent, #ff0000);
+}
+.headline-h1 span:nth-child(1) {
+  animation-delay: 0.4s;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #122432;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #f4032b, 0 0 20px #8b0000, 0 0 40px #9b2222,
+      0 0 80px #ff6702a1, 0 0 160px #ffbb00, 0 0 400px #f4030377;
+  }
+}
