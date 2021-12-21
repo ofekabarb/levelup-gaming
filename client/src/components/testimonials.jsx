@@ -80,9 +80,7 @@ const Testimonials = () => {
                       quaerat dolores voluptates recusandae qui repellat illum,
                       amet ipsa debitis fugiat commodi nemo suscipit ad!"
                     </p>
-                    <h3>
-                      small bulbul - <span>Eliav Yair</span>
-                    </h3>
+                    <h3>Eliav Yair</h3>
                   </div>
                 </div>
               </div>
