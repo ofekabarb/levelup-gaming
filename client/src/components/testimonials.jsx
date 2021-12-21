@@ -71,7 +71,7 @@ const Testimonials = () => {
                       quaerat dolores voluptates recusandae qui repellat illum,
                       amet ipsa debitis fugiat commodi nemo suscipit ad!"
                     </p>
-                    <h3>Sagi Reuven</h3>
+                    <h3>John Doe</h3>
                   </div>
                   <div className="carousel-item testi-item">
                     <p className="paragraph">
@@ -80,7 +80,7 @@ const Testimonials = () => {
                       quaerat dolores voluptates recusandae qui repellat illum,
                       amet ipsa debitis fugiat commodi nemo suscipit ad!"
                     </p>
-                    <h3>Eliav Yair</h3>
+                    <h3>Israel Israeli</h3>
                   </div>
                 </div>
               </div>
