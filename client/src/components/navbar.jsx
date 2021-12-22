@@ -377,18 +377,12 @@ const Navbar = ({ user, addedItems }) => {
                     className="dropdown-menu text-center bg-danger"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    <li
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarsExample04"
-                    >
+                    <li>
                       <Link className="dropdown-item text-light" to="/profile">
                         <i className="bi bi-person"></i> Profile
                       </Link>
                     </li>
-                    <li
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarsExample04"
-                    >
+                    <li>
                       <Link className="dropdown-item text-light" to="/logout">
                         <i className="bi bi-box-arrow-left me-1"></i> Logout
                       </Link>
