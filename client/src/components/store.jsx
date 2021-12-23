@@ -22,7 +22,7 @@ class Store extends React.Component {
 
             {/* Side nav (Playstation, Nintendo, PC, Xbox) */}
             {/* MAIN CONTENT */}
-            <div className="container store-container">
+            <div className="container ">
               <SRLWrapper>
                 <div className="row justify-content-around">
                   <div

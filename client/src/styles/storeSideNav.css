@@ -39,6 +39,25 @@
   }
 }
 
+@media only screen and (max-width: 766px) and (min-width: 351px) {
+  .sidebar-logo {
+    width: 2em;
+  }
+  .sidenav-list {
+    margin-left: -10px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .adds-store {
+    width: 3em;
+    left: 1.6em;
+  }
+  .cnnContents {
+    font-size: 45px;
+  }
+}
+
 @media only screen and (max-width: 350px) {
   .sidebar-logo {
     width: 2em;

@@ -29,7 +29,7 @@ const Product = ({
   return (
     <>
       <div
-        className="card col-md-3 mt-5 col-lg-3 col-xl-3 col-12 m-3 text-center border border-dark shadow-lg p-3 bg-body rounded prodImg"
+        className="card col-md-4 mt-5 col-lg-3 col-xl-3 col-12 m-3 text-center border border-dark shadow-lg p-3 bg-body rounded prodImg"
         data-aos="zoom-in-up"
         data-aos-delay="50"
         data-aos-duration="2000"
@@ -51,14 +51,14 @@ const Product = ({
           <div className="card-text amount mb-3">{desc}</div>
 
           <button
-            className="btn btn-primary me-2"
+            className="btn btn-primary me-2 btnInfo"
             onClick={() => showModal(img, title, details)}
           >
             More Info <i className="bi bi-info text-light ms-1"></i>
           </button>
 
           <button
-            className="btn btn-success ms-2"
+            className="btn btn-success  btnAdd"
             onClick={() => addToCart(id)}
           >
             Add to cart <i className=" bi bi-cart text-light ms-1"></i>
