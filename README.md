@@ -29,3 +29,13 @@ I wanted to give the full website experience and I know this is a bad practice u
 •	Redux state management – connect the project to redux store reducer
 
 •	Persistent cart using local storage ( saves users cart data in the local storage )
+
+# Credits
+
+The Credits go by my wonderfull development team:
+
+ Eliav Yair : https://github.com/EliavYair1.
+
+ Sagi Reuven : https://github.com/sagi-reuven.
+
+ And Last but not Least Ofek Abarbanel.
