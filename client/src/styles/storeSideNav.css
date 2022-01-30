@@ -1,0 +1,78 @@
+.sidebar-logo {
+  width: 7em;
+}
+
+.adds-store {
+  overflow: hidden;
+  position: relative;
+  top: 10em;
+  left: 2em;
+  width: 6em;
+  height: 90em;
+  background-color: white;
+  color: red;
+}
+
+.cnnContents {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.marqueeStyle {
+  display: inline-block;
+  animation: scrolling 30s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+  }
+}
+
+@media only screen and (max-width: 766px) and (min-width: 351px) {
+  .sidebar-logo {
+    width: 2em;
+  }
+  .sidenav-list {
+    margin-left: -10px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .adds-store {
+    width: 3em;
+    left: 1.6em;
+  }
+  .cnnContents {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .sidebar-logo {
+    width: 2em;
+  }
+  .sidenav-list {
+    margin-left: -10px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .adds-store {
+    width: 3em;
+    left: 1.6em;
+  }
+  .cnnContents {
+    font-size: 45px;
+  }
+}

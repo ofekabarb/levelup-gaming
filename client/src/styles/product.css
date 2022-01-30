@@ -1,0 +1,21 @@
+/* @media screen and (min-width: 800px) {
+  .prodImg {
+    width: 24rem;
+  }
+} */
+@media only screen and (max-width: 1478px) and (min-width: 351px) {
+  .btnInfo {
+    margin-bottom: 10px;
+  }
+  .btnAdd {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .btnInfo {
+    margin-bottom: 10px;
+  }
+  .btnAdd {
+    margin-bottom: 10px;
+  }
+}

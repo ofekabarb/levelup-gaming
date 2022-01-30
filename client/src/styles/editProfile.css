@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  width: 10.1em;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* margin-bottom: 10px; */
+  margin-top: 10px;
+}
+
+.ProfileImage {
+  width: 10em;
+  height: 10em;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  border-radius: 50%;
+}
+
+h4 {
+  color: rgba(255, 0, 0, 0.719);
+}
+.card {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 16px 20px 5px rgb(226, 8, 8);
+}
+
+.profileContainer {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  /* height: 85vh; */
+  min-height: 100vh;
+}
+
+.innerContainer {
+  background-color: white;
+  width: 35rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  border-radius: 5px;
+}
+.innerContainer:hover {
+  box-shadow: 0 16px 20px 5px rgb(0, 0, 0);
+}
+@media only screen and (max-width: 650px) and (min-width: 300px) {
+  .innerContainer {
+    width: 15em;
+  }
+}

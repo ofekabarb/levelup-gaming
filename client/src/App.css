@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patua+One&display=swap%27");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Patua One";
+}
+
+.google-font {
+  font-family: "Abril Fatface";
+}

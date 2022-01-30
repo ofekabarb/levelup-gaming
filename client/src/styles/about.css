@@ -1,0 +1,70 @@
+.aboutContainer {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  min-height: 90vh;
+}
+.about-title {
+  color: lightgray;
+  text-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b;
+}
+.aboutUsImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  transform: scale(1);
+}
+.main-team-container {
+  width: 75%;
+  box-shadow: 0 0 10px #ffc6d0, 0 0 20px #b36969, 0 0 40px #22659b;
+  border-radius: 20px;
+}
+
+.vision {
+  background-image: url("../images/tablet-gcf8fd436b_1280.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55em;
+}
+.vision-logo {
+  width: 10em;
+  height: 10em;
+}
+
+@media screen and (max-width: 760px) {
+  .vision-list {
+    font-size: 10px;
+    font-weight: 800;
+    position: relative;
+    top: -65px;
+  }
+  .about-text-stroke {
+    display: none;
+  }
+
+  .vision-logo {
+    display: none;
+  }
+  .aboutUsImage {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .inner-team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 33%; */
+    margin-bottom: 20px;
+  }
+  .aboutUsImage {
+    display: none;
+  }
+  .vision {
+    height: 20em;
+  }
+  .vision-list {
+    font-size: 6px;
+    top: -95px;
+  }
+}

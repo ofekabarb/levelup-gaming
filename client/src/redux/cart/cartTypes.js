@@ -1,0 +1,6 @@
+export const ADD_TO_CART = "ADD_TO_CART";
+export const SUBTRACT_FROM_CART = "SUBTRACT_FROM_CART";
+export const REMOVE_ITEM_FROM_CART = "REMOVE_ITEM_FROM_CART";
+export const ADD_QUANTITY = "ADD_QUANTITY";
+// ******************
+export const DISPLAY_TOTAL_QUANTITY = "DISPLAY_TOTAL_QUANTITY";

@@ -1,0 +1,15 @@
+.signInContainer {
+  color: white;
+  background-image: url("https://wallpaperaccess.com/full/2141425.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 10px 10px 1px,
+    inset 10px 2px 2px 1px rgba(255, 36, 36, 0.514),
+    inset -10px -10px 10px 1px rgba(255, 36, 36, 0.514),
+    inset -10px 10px 10px 1px rgba(255, 36, 36, 0.514);
+}
+.vectorLogo {
+  width: 13em;
+  filter: brightness(1.9);
+  margin-top: 1em;
+  margin-left: 2em;
+}
