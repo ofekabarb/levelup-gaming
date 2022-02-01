@@ -164,7 +164,7 @@ const Footer = () => {
               <ul className="nav">
                 <li className="nav-item">
                   <a
-                    href="https://www.linkedin.com/in/sagi-reuven-6764b6203/"
+                    href="https://www.linkedin.com/in/ofek-abarbanel-3b3b7a202/"
                     className="nav-link"
                   >
                     <i className="bi bi-instagram">
@@ -188,7 +188,7 @@ const Footer = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://github.com/sagi-reuven"
+                    href="https://github.com/ofekAbarbanel/"
                     target="blank"
                     className="nav-link"
                   >
@@ -199,7 +199,7 @@ const Footer = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://www.facebook.com/sagi.reoven/"
+                    href="https://www.facebook.com/qiwe154/"
                     target="blank"
                     className="nav-link"
                   >
