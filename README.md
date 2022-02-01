@@ -29,3 +29,4 @@ I wanted to give the full website experience and I know this is a bad practice u
 •	Redux state management – connect the project to redux store reducer
 
 •	Persistent cart using local storage ( saves users cart data in the local storage )
+"# levelup-fullstack" 
